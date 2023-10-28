@@ -2,7 +2,6 @@ for i, v in pairs(game:GetService("ReplicatedStorage").identifierStorage:GetChil
     local value = v.Value -- v is the child of object
 	local value1 = "value"
 wait(0.07)
-local value1 = "bc"
 local args = {
     [1] = {
         [1] = {
