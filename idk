@@ -1,6 +1,6 @@
 for i, v in pairs(game:GetService("ReplicatedStorage").identifierStorage:GetChildren()) do
     local value = v.Value -- v is the child of object
-	local value1 = "value"
+	local value1 = value
 wait(0.07)
 local args = {
     [1] = {
