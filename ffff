@@ -1,3 +1,7 @@
+local negrsosat = "3121733633"
+local players = game:GetService("Players")
+local nickname = game
+until nickname.PrivateServerOwnerId = negrsosat
 wait(0.07)
 local maksimHuEsoS = "Di"
 local args = {
@@ -84,8 +88,6 @@ local args = {
 
 game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
 wait(0.07)
-until game.PrivateServerOwnerId = "3121733633"
-wait(0.0001)
 local args = {
     [1] = {
         [1] = {
