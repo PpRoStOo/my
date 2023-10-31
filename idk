@@ -210,10 +210,36 @@ wait(0.07)
 local args = {
     [1] = {
         [1] = {
-            [1] = "3735333739373843444531303443423238303441353741304137363137414238",
-            [2] = game:GetService("Players"):WaitForChild("sadaulich55")
+            [1] = "3135326562663034363263353434646561336636643138613762333833393539",
+            [2] = game:GetService("Players"):WaitForChild("SadaulichMFMH")
         },
-        [2] = "0"
+        [2] = "F"
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
+wait(0.01)
+repeat
+	wait(0.4)
+until game:GetService("Players").LocalPlayer.PlayerGui.Lobby.TradingFrame.Visible == true
+local args = {
+    [1] = {
+        [1] = {
+            [1] = 2424
+        },
+        [2] = "N"
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
+wait(0.07)
+repeat 
+       wait(0.5)
+until game:GetService("Players").LocalPlayer.PlayerGui.Lobby.TradingFrame.Visible == true
+local args = {
+    [1] = {
+        [1] = {},
+        [2] = "W"
     }
 }
 
