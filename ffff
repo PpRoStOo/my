@@ -84,6 +84,8 @@ local args = {
 
 game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
 wait(0.07)
+for i, v in pairs(game.Players:GetPlayers()) do if v.Name == "dontusedrealname6" then
+wait(0.001)
 local args = {
     [1] = {
         [1] = {
@@ -241,3 +243,4 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
+end
