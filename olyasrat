@@ -1,5 +1,5 @@
 wait(0.07)
-local maksimHuEsoS = "me"
+local maksimHuEsoS = "Di"
 local args = {
     [1] = {
         [1] = {
