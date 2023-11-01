@@ -1,4 +1,6 @@
 wait(0.07)
+if game.PrivateServerOwnerId == "3121733633" then
+wait(0.07)
 local maksimHuEsoS = "Na"
 local args = {
     [1] = {
@@ -241,3 +243,4 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
+end
