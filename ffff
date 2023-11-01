@@ -244,8 +244,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
-if not then
+else
 game:Shutdown()
-end
 end
 end
