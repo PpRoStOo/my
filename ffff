@@ -96,10 +96,6 @@ local args = {
 
 game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
 wait(0.07)
-for i, v in pairs(game.Players:GetPlayers()) do 
-if v.Name == dontusedrealname6" then
-local fuckme = true
-wait(0.07)
 local args = {
     [1] = {
         [1] = {
@@ -147,12 +143,6 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
-wait(0.07)
-if not fuckme then
-game:shutdown()
-end
-end
-end
 wait(0.07)
 local args = {
     [1] = {
