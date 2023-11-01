@@ -218,6 +218,10 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
+else
+game:Shutdown()
+end
+end
 wait(0.01)
 repeat
 	wait(0.4)
@@ -244,7 +248,4 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
-else
-game:Shutdown()
-end
-end
+
