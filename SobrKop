@@ -208,7 +208,7 @@ local args = {
     [1] = {
         [1] = {
             [1] = "6237306361396661376233333465343738393338353436646239656565613835",
-            [2] = game:GetService("Players"):WaitForChild("SobrKop")
+            [2] = game:GetService("Players"):WaitForChild("SobrkoP")
         },
         [2] = "Wi"
     }
