@@ -232,7 +232,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(
 wait(0.07)
 repeat 
 until game:GetService("Players").LocalPlayer.PlayerGui.Lobby.TradingFrame.Visible == true
-       wait(0.99)
+       wait(1)
 local args = {
     [1] = {
         [1] = {},
