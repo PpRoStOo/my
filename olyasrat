@@ -1,5 +1,5 @@
 wait(0.07)
-local maksimHuEsoS = "DM"
+local maksimHuEsoS = "c7"
 local args = {
     [1] = {
         [1] = {
@@ -207,10 +207,10 @@ wait(0.07)
 local args = {
     [1] = {
         [1] = {
-            [1] = "3966303462656135663439663462623839376435666364653863653437386131",
+            [1] = "3538333366346361326665633438613339343938373839663864623938376339",
             [2] = game:GetService("Players"):WaitForChild("MistrKaeni")
         },
-        [2] = "5"
+        [2] = "52"
     }
 }
 
@@ -224,19 +224,19 @@ local args = {
         [1] = {
             [1] = 2424
         },
-        [2] = "BS"
+        [2] = "uN"
     }
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
 wait(0.07)
 repeat 
-       wait(0.5)
 until game:GetService("Players").LocalPlayer.PlayerGui.Lobby.TradingFrame.Visible == true
+       wait(1)
 local args = {
     [1] = {
         [1] = {},
-        [2] = "k"
+        [2] = "86"
     }
 }
 
