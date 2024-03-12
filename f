@@ -1,5 +1,5 @@
 wait(0.07)
-local maksimHuEsoS = "Na"
+local maksimHuEsoS = "56"
 local args = {
     [1] = {
         [1] = {
@@ -96,10 +96,6 @@ local args = {
 
 game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
 wait(0.07)
-for i, v in pairs(game.Players:GetPlayers()) do 
-if v.Name == dontusedrealname6" then
-local fuckme = true
-wait(0.07)
 local args = {
     [1] = {
         [1] = {
@@ -147,12 +143,6 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
-wait(0.07)
-if not fuckme then
-game:shutdown()
-end
-end
-end
 wait(0.07)
 local args = {
     [1] = {
@@ -217,35 +207,36 @@ wait(0.07)
 local args = {
     [1] = {
         [1] = {
-            [1] = "3135326562663034363263353434646561336636643138613762333833393539",
+            [1] = "3234636436363666396539373465316661653131356666333763323138646236",
             [2] = game:GetService("Players"):WaitForChild("dontusedrealname6")
         },
-        [2] = "F"
+        [2] = "22"
     }
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
+	wait(0.01)
 repeat
 	wait(0.4)
 until game:GetService("Players").LocalPlayer.PlayerGui.Lobby.TradingFrame.Visible == true
 local args = {
     [1] = {
         [1] = {
-            [1] = 2424
+            [1] = 3434
         },
-        [2] = "N"
+        [2] = "3"
     }
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("dataRemoteEvent"):FireServer(unpack(args))
 wait(0.07)
 repeat 
-       wait(0.5)
 until game:GetService("Players").LocalPlayer.PlayerGui.Lobby.TradingFrame.Visible == true
+       wait(1)
 local args = {
     [1] = {
         [1] = {},
-        [2] = "W"
+        [2] = "in"
     }
 }
 
